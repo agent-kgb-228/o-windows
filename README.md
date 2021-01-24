@@ -1,4 +1,7 @@
 # o-windows
+```
+слава ссср
+```
 
 ```
 <!DOCTYPE html>
