@@ -73,8 +73,8 @@
                 Платные обновления расширенной безопасности (ESU), продаваемые отдельно для каждого устройства,
                 будут предлагаться до января 2023 года.</p>
 
-            <h2>Системные требования</h2>
-            <h4>Минимальные системные требования Windows 7</h4>
+            <h2>Системные требования требования Windows 7</h2>
+            <div class="wer">
             <table border="1" rules="all" class="table text-info table-bordered oon">
                 <thead class="table-primary">
                     <!--Это будет первый ряд таблицы:-->
@@ -113,22 +113,22 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <br>
 
-            <br>
+        <!-- Put this script tag to the <head> of your page -->
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
 
-            <!-- Put this script tag to the <head> of your page -->
-            <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+        <script type="text/javascript">
+            VK.init({ apiId: 7752244, onlyWidgets: true });
+        </script>
 
-            <script type="text/javascript">
-                VK.init({ apiId: 7752244, onlyWidgets: true });
-            </script>
-
-            <!-- Put this div tag to the place, where the Comments block will be -->
-            <div id="vk_comments"></div>
-            <script type="text/javascript">
-                VK.Widgets.Comments("vk_comments", { limit: 20, attach: "*" });
-            </script>
-            <br>
+        <!-- Put this div tag to the place, where the Comments block will be -->
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+            VK.Widgets.Comments("vk_comments", { limit: 20, attach: "*" });
+        </script>
+        <br>
         </div>
 
 
