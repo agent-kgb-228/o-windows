@@ -6,14 +6,14 @@ min-height: 100%;
 font-family: Arial, sans-serif;
 font-size: 15px;
 text-align: auto;
-background: #000 url("/source/photos/WIP-6th-anniversary-wallpaper-light.jpg") no-repeat;
+background: #000 url("/o-windows/source/photos/WIP-6th-anniversary-wallpaper-dark.jpg") no-repeat;
 background-attachment: fixed;
 color: #000;
 background-repeat: repeat-x;
 background-size: 100%;
 }
 .breadcrumbs{
-test-style: none;
+list-style: none;
 display: inline-block;
 font-size: 0;
 }
